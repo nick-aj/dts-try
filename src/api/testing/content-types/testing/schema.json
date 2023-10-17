@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "testings",
+  "info": {
+    "singularName": "testing",
+    "pluralName": "testings",
+    "displayName": "Testing"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Something": {
+      "type": "date"
+    },
+    "Smthng": {
+      "type": "email"
+    }
+  }
+}

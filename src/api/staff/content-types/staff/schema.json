@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "Staff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Role": {
+      "type": "enumeration",
+      "enum": [
+        "Chef",
+        "Waiting Staff",
+        "Cashier"
+      ],
+      "required": true
+    }
+  }
+}
